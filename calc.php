@@ -21,6 +21,7 @@
         $resp = "IMC fora do Intervalo!";
     } 
 
+    $calculo = number_format($calculo, 2, '.', ' ' );
     echo ("IMC: ".$calculo);
     echo "<br>";
     echo ("Resultado: $resp");
